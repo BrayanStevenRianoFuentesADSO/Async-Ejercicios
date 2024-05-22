@@ -7,13 +7,14 @@ callback de true, no los agrega, cuando el callback da false por primera vez agr
 todos los elementos restantes a partir de dicho elemento inclusive)
  */
 
-
+const lodash = require("lodash");
 
 const numeros = [2, 4, 6, 8, 10, 11, 12, 14, 16];
 
-function dropWhile(array,) {
+let num_impar = lodash.dropWhile(numeros, (num) => {
+  return num % 2 === 0
+});
 
-}
 
 
-
+console.log(num_impar)
