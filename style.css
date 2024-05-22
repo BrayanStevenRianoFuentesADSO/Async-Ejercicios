@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+
+  font-style: normal;
+}
+
+
+
+.header{
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(34, 0, 138);
+  display: flex;
+  font-size: 25px;
+  color: white;
+  align-items: center;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
+.section1{
+  width: 100%;
+  height: 92vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1__ejercicios_container{
+  width: 80%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1em;
+  
+}
+
+
+
+.ejercicio__link{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 91, 3);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
